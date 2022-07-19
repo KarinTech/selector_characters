@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+}
+
+header {
+    box-sizing: border-box;
+    width:100%;
+}
+
+header .banner  {
+    box-sizing: border-box;
+    border: 1px solid red;
+    width:100%;
+    height: 300px;
+
+
+}
+
+.banner img {
+    width:40%;
+    height: 290px;
+    margin-top:0px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+
+.nav-bar {
+    box-sizing:border-box;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(15, 16, 16);
+    list-style: none;
+    color: rgb(75, 52, 127);
+    font-weight: bold;
+}
+
+.election {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width:800px;
+    background-color: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(6,28,189,1) 36%, rgba(51,47,51,0.9251050762101716) 50%);
+}
+
+.election >div {
+
+    }
+
+
+.election .cardA {
+
+    width: 240px;
+    height: 490px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 2%;
+    background-color: rgb(44, 51, 51);
+    border-style: double;
+    box-shadow: 2rem;
+    border-color: chartreuse;
+    margin-left: 10px;
+
+}
+
+.election .cardA .img {
+    margin-right: 30%;
+    margin-left: 30;
+    padding: 10%;
+    box-sizing: border-box;
+    border: 2px yellow;
+    box-shadow: 5% darkkhaki;
+    border-radius: 5%;
+
+}
+
+.election h2 {
+    color: darkgoldenrod;
+    font-style: italic;
+    text-shadow: red;
+    text-shadow: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-left: 8px;
+
+
+}
+
+.cardA .name {
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-left: 8px;
+
+}
+.selection.cardB a {
+    color:rgb(7, 7, 8);
+}
+
+.cardA button {
+    background-color: rgb(18, 2, 75);
+    width: 100px;
+    height: 40px;
+    border: 2px solid burlywood;
+    border-radius: 4%;
+}
+
+.cardA button :hover {
+    color: rgb(238, 228, 33);
+    font-size: larger;
+}
+
+.cardA a button :focus {
+    outline: 3px solid rgb(130, 64, 3);
+}
+
+.selection.cardB .cardC {
+    width: 240px;
+    height: 490px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 2%;
+    background-color: rgb(44, 51, 51);
+    border-style: double;
+    box-shadow: 2rem;
+    border-color: rgb(154, 191, 7);
+    margin-left: 10px;
+
+}
+
+.selection.cardB .cardC h2 {
+    color: rgb(14, 2, 47);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-left: 8px;
+}
+
+.selection .cardB .cardC a {
+    color:rgb(0, 0, 0);
+}
+.cardB button {
+    background-color: rgb(214, 27, 27);;
+    width: 100px;
+    height: 40px;
+    border: 2px solid burlywood;
+    border-radius: 4%;
+}
+
+.cardB button :hover {
+    color: rgb(136, 141, 9);
+    font-size: larger;
+}
+
+.cardB a button :focus {
+    outline: 3px solid rgb(255, 123, 0);
+}
+.election .cardC {
+    width: 240px;
+    height: 490px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 2%;
+    background-color: rgb(44, 51, 51);
+    border-style: double;
+    box-shadow: 2rem;
+    border-color: rgb(154, 191, 7);
+    margin-left: 10px;
+
+}
+
+.selection.cardC h2 {
+    color: rgb(14, 2, 47);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-left: 8px;
+}
+
+.cardC a {
+    color:rgb(32, 65, 172);
+}
+.cardC button {
+    background-color: rgb(97, 18, 183);;
+    width: 100px;
+    height: 40px;
+    border: 2px solid burlywood;
+    border-radius: 4%;
+}
+
+.cardB button :hover {
+    color: rgb(136, 141, 9);
+    font-size: larger;
+}
+
+.cardB a button :focus {
+    outline: 3px solid rgb(255, 123, 0);
+}
